@@ -2,10 +2,10 @@
 body {
     background-color: black;
     text-align: center;
+    font-family: Verdana;
 }
 
 h1 {
-    font-family: Verdana;
     font-weight: normal;
     font-size: 50px;
     color: white;
@@ -20,20 +20,17 @@ video {
     width: 100%;
     max-width: 404px;
     height: auto;
-    font-family: Verdana;
     font-size: 16px;
     color: white;
 }
 
 h2 {
-    font-family: Verdana;
     font-weight: 300;
     font-size: 42px;
     color: white;
 }
 
 p {
-    font-family: Verdana;
     font-size: 21px;
     color: gray;
 }
@@ -50,7 +47,7 @@ p img[src="resources/images/phone.webp"] {
     height: auto;
 }
 
-p:last-child {
+.footer {
     text-align: right;
     color: gray;
 }
