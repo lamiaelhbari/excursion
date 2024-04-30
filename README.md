@@ -1,6 +1,6 @@
 # Excursion
 
-###### Welcome to the Excursion repository!
+#### Welcome to the Excursion repository!
 
 This project was created as an exercise to master Git and GitHub.
 
