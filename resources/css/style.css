@@ -1,53 +1,67 @@
- body {
-     background-color: black;
-     text-align: center;
- }
+/* Styles par défaut */
+body {
+    background-color: black;
+    text-align: center;
+}
 
- h1 {
-     font-family: Verdana;
-     font-weight: normal;
-     font-size: 50px;
-     color: white;
-     text-align: center;
- }
+h1 {
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+}
 
- p a {
-     color: aquamarine;
-     font-size: 16px;
- }
+p a {
+    color: aquamarine;
+    font-size: 16px;
+}
 
- video {
-     width: 404px;
-     height: 720px;
-     font-family: Verdana;
-     font-size: 16px;
-     /* color: white; */
- }
+video {
+    width: 100%;
+    max-width: 404px;
+    height: auto;
+    font-family: Verdana;
+    font-size: 16px;
+    color: white;
+}
 
- h2 {
-     font-family: Verdana;
-     font-weight: 300;
-     font-size: 42px;
-     color: white;
- }
+h2 {
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
 
- p {
-     font-family: Verdana;
-     font-size: 21px;
-     color: gray;
- }
+p {
+    font-family: Verdana;
+    font-size: 21px;
+    color: gray;
+}
 
- p img[src="resources/images/camp.webp"] {
-     width: 896px;
-     height: 527px;
- }
+p img[src="resources/images/camp.webp"] {
+    width: 100%;
+    max-width: 896px;
+    height: auto;
+}
 
- p img[src="resources/images/phone.webp"] {
-     width: 64px;
-     height: 108px;
- }
+p img[src="resources/images/phone.webp"] {
+    width: 100%;
+    max-width: 64px;
+    height: auto;
+}
 
- p:last-child {
-     text-align: right;
-     color: gray;
- }
+p:last-child {
+    text-align: right;
+    color: gray;
+}
+
+/* Media Query pour les écrans de taille moyenne à grande */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+}
